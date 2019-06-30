@@ -37,6 +37,7 @@ Node can be used to run the server;
 node ./bin/server/Main.js
 ```
 
+The server command line application can be gracefully shut down by typing the entering 'quit'.
 
 ### Client
 
