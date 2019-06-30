@@ -1,0 +1,31 @@
+{
+  "compileOnSave": false,
+  "exclude": [
+    "./../node_modules/**/*"
+  ],
+  "include": [
+    "./**/*"
+  ],
+  "compilerOptions": {
+    "module": "commonjs",
+    "target": "es6",
+    "moduleResolution": "node",
+    "experimentalDecorators": true,
+    "removeComments": false,
+    "skipLibCheck": true,
+    "allowUnreachableCode": true,
+    "noImplicitAny": true,
+    "inlineSourceMap": true,
+    "outDir": "../bin",
+    "baseUrl": "./",
+    "lib": [
+      "es2018"
+    ],
+    "paths": {
+      "*": [
+        "./../node_modules/*",
+        "./types/*"
+      ]
+    }
+  }
+}

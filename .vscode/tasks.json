@@ -1,0 +1,13 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "compile_server",
+      "type": "typescript",
+      "tsconfig": "server\\tsconfig.json",
+      "problemMatcher": [
+        "$tsc"
+      ]
+    }
+  ]
+}

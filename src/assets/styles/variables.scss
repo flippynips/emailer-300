@@ -1,0 +1,29 @@
+
+$tone:#ffffff;
+$tone_invert:invert($tone);
+
+$color_0:rgb(86, 159, 255);
+$color_1:rgb(0, 114, 190);
+$color_2:rgb(255, 187, 0);
+
+$color_info:rgb(0, 200, 255);
+$color_warn:rgb(255, 187, 0);
+$color_eror:rgb(255, 38, 0);
+
+$color_good:rgb(0, 185, 77);
+$color_baad:rgb(173, 67, 67);
+
+$color_info_text:mix($tone_invert, $color_info, 80%);
+$color_info_back:mix($tone, $color_info, 80%);
+$color_warn_text:mix($tone_invert, $color_warn, 80%);
+$color_warn_back:mix($tone, $color_warn, 80%);
+$color_eror_text:mix($tone_invert, $color_eror, 80%);
+$color_eror_back:mix($tone, $color_eror, 80%);
+
+$color_text_0:mix($tone_invert, $color_0, 85%);
+$color_text_1:mix($tone_invert, $color_1, 85%);
+$color_text_2:mix($tone_invert, $color_2, 85%);
+
+$color_back_0:mix($tone, $color_0, 75%);
+$color_back_1:mix($tone, $color_1, 75%);
+$color_back_2:mix($tone, $color_2, 75%);

@@ -1,0 +1,17 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "node",
+      "request": "launch",
+      "console": "externalTerminal",
+      "name": "Launch Server",
+      "program": "${workspaceRoot}/bin/server/Main.js",
+      "cwd": "${workspaceRoot}",
+      "preLaunchTask": "compile_server",
+      "outFiles": [
+        "${workspaceFolder}/bin/**/*.js"
+      ]
+    }
+  ]
+}
