@@ -6,11 +6,12 @@ An abstraction between two different email service providers with a basic web UI
 - e2e tests.
 - server unit tests.
 - specific email provider error handling and user feedback.
-- complete minification of client application.
-- add more email providers.
+- add additional email providers!
 
 ## Setup
 
+API keys for SendGrid and MailJet API are configurable in './server/Config.ts'.
+Without at least one of these, emails cannot be sent!
 Testing, developing and building requires dependencies. To install dependencies using npm run;
 ``` bash
 npm i
